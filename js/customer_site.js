@@ -1,7 +1,7 @@
 const CUSTOMER_SITES = {
-    qiqi: {
-        api: 'https://www.qiqidys.com/api.php/provide/vod',
-        name: '七七资源',
+    hongniu: {
+        api: 'https://hongniuzy2.com/api.php/provide/vod/from/hnm3u8',
+        name: '红牛资源',
     }
 };
 
