@@ -22,9 +22,9 @@ const SITE_CONFIG = {
 
 // API站点配置
 const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
+    senlin: {
+        api: 'https://slapibf.com/api.php/provide/vod',
+        name: '森林资源',
         adult: true
     }
     //ARCHIVE https://telegra.ph/APIs-08-12
