@@ -27,6 +27,16 @@ const API_SITES = {
         name: '森林资源',
         adult: true
     }
+     155: {
+        api: 'https://155api.com/api.php/provide/vod',
+        name: '155资源',
+        adult: true
+    }
+    CK: {
+        api: 'https://ckbh1.xyz/api.php/provide/vod/?ac=list',
+        name: 'CK百货',
+        adult: true
+    }
     //ARCHIVE https://telegra.ph/APIs-08-12
 };
 
