@@ -37,6 +37,11 @@ const API_SITES = {
         name: 'CK百货',
         adult: true
     }
+    liangzi: {
+        api: 'http://cj.lziapi.com/api.php/provide/vod/from/lzm3u8',
+        name: '量子资源',
+        adult: false
+    }
     //ARCHIVE https://telegra.ph/APIs-08-12
 };
 
