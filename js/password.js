@@ -52,7 +52,7 @@ async function verifyPassword(password) {
         const isValid = inputHash === correctHash;
 
         if (isValid) {
-            lsessionStorage.setItem(PASSWORD_CONFIG.localStorageKey, JSON.stringify({
+            localStorage.setItem(PASSWORD_CONFIG.localStorageKey, JSON.stringify({
                 verified: true,
                 timestamp: Date.now(),
                 passwordHash: correctHash
