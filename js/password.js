@@ -44,11 +44,6 @@ window.isPasswordRequired = isPasswordRequired;
  * 验证用户输入的密码是否正确（异步，使用SHA-256哈希）
  */
 async function verifyPassword(password) {
-    localStorage.setItem(PASSWORD_CONFIG.localStorageKey, JSON.stringify({
-        verified: true,
-        timestamp: Date.now()
-    }));
-
     return true;
 }
 
